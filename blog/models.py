@@ -17,4 +17,5 @@ class Post(models.Model):
         self.save()
 
     def __str__(self):
+        a = 100
         return self.title
